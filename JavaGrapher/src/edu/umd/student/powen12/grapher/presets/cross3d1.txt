@@ -1,0 +1,10 @@
+e0: -sqrt(1-sqr(x))
+e1: sqrt(1-x^2)
+x-min: -0.9999999999
+x-max: 0.9999999999
+x-res: 50
+rot-res: 50
+x-center: 0.0
+y-center: 0.0
+z-center: 0.0
+view-dist: 4.0

@@ -1,4 +1,4 @@
-java-grapher
+Java Grapher
 =========
 All necessary java files are included.
 

@@ -1,0 +1,5 @@
+e0: sin(x)+u*sin(2x)
+x-min: -10.0
+x-max: 10.0
+y-min: -10.0
+y-max: 10.0

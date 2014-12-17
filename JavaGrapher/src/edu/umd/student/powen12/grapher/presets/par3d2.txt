@@ -1,0 +1,13 @@
+e0: cos(s)*((2+u)+sin(t))
+e1: sin(s)*((2+u)+sin(t))
+e2: cos(t)
+s-min: -pi
+s-max: pi
+t-min: -pi
+t-max: pi
+s-res: 50
+t-res: 50
+x-center: 0.0
+y-center: 0.0
+z-center: 0.0
+view-dist: 8

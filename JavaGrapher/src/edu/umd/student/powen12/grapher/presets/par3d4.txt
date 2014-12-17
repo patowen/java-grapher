@@ -1,0 +1,13 @@
+e0: 1.1^s*cos(s)
+e1: 1.1^s*sin(s)
+e2: 1.1^s*t
+s-min: -100.0
+s-max: 100.0
+t-min: -0.2
+t-max: 0.2
+s-res: 5000
+t-res: 1
+x-center: 0.0
+y-center: 0.0
+z-center: 0.0
+view-dist: 4.0

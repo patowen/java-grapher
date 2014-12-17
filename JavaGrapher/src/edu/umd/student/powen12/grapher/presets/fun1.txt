@@ -1,0 +1,5 @@
+e0: sin(sqr(x))
+x-min: -5.0
+x-max: 5.0
+y-min: -5.0
+y-max: 5.0
