@@ -1,0 +1,11 @@
+e0: (u+1.2)^t*cos(t)
+e1: (u+1.2)^t*sin(t)
+x-min: -10.0
+x-max: 10.0
+y-min: -10.0
+y-max: 10.0
+x-scale: 1.0
+y-scale: 1.0
+t-min: -100.0
+t-max: 100.0
+t-res: 5000

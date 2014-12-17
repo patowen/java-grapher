@@ -1,0 +1,13 @@
+e0: cos(s)*(1+t*cos(s/2))
+e1: sin(s)*(1+t*cos(s/2))
+e2: t*sin(s/2)
+s-min: -pi
+s-max: pi
+t-min: -0.2
+t-max: 0.2
+s-res: 50
+t-res: 50
+x-center: 0.0
+y-center: 0.0
+z-center: 0.0
+view-dist: 4.0
