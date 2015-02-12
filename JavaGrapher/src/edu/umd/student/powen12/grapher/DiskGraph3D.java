@@ -256,8 +256,8 @@ public class DiskGraph3D extends Graph3D
 		for (int i=0; i<rotRes; i++)
 		{
 			int v1 = i*4, v2 = (i+1)*4;
-			order[oc++] = v1; order[oc++] = v1+1; order[oc++] = (i+1)*4+1;
-			order[oc++] = v1; order[oc++] = (i+1)*4+1; order[oc++] = (i+1)*4;
+			order[oc++] = v1; order[oc++] = v1+1; order[oc++] = v2+1;
+			order[oc++] = v1; order[oc++] = v2+1; order[oc++] = v2;
 			
 			order[oc++] = v2+2; order[oc++] = v2+3; order[oc++] = v1+3;
 			order[oc++] = v2+2; order[oc++] = v1+3; order[oc++] = v1+2;
