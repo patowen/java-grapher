@@ -1,8 +1,0 @@
-e0: sqr(x)+u*sqr(y)+vxy-9
-x-min: -10.0
-x-max: 10.0
-y-min: -10.0
-y-max: 10.0
-x-scale: 1.0
-y-scale: 1.0
-inverted: false

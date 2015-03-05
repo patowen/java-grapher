@@ -1,0 +1,8 @@
+e0: 4x^3-ux^2y+9xy^2-9y^3-36x+36y+10v
+x-min: -10.0
+x-max: 10.0
+y-min: -10.0
+y-max: 10.0
+x-scale: 1.0
+y-scale: 1.0
+inverted: false
