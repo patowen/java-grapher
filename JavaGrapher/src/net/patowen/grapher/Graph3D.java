@@ -18,21 +18,21 @@
  */
 
 package net.patowen.grapher;
-import static javax.media.opengl.GL.GL_COLOR_BUFFER_BIT;
-import static javax.media.opengl.GL.GL_DEPTH_BUFFER_BIT;
-import static javax.media.opengl.GL.GL_DEPTH_TEST;
-import static javax.media.opengl.GL.GL_FRONT_AND_BACK;
-import static javax.media.opengl.GL.GL_LINES;
-import static javax.media.opengl.GL2ES1.GL_LIGHT_MODEL_AMBIENT;
-import static javax.media.opengl.GL2ES1.GL_LIGHT_MODEL_TWO_SIDE;
-import static javax.media.opengl.fixedfunc.GLLightingFunc.GL_AMBIENT;
-import static javax.media.opengl.fixedfunc.GLLightingFunc.GL_AMBIENT_AND_DIFFUSE;
-import static javax.media.opengl.fixedfunc.GLLightingFunc.GL_DIFFUSE;
-import static javax.media.opengl.fixedfunc.GLLightingFunc.GL_LIGHT0;
-import static javax.media.opengl.fixedfunc.GLLightingFunc.GL_LIGHTING;
-import static javax.media.opengl.fixedfunc.GLLightingFunc.GL_POSITION;
-import static javax.media.opengl.fixedfunc.GLMatrixFunc.GL_MODELVIEW;
-import static javax.media.opengl.fixedfunc.GLMatrixFunc.GL_PROJECTION;
+import static com.jogamp.opengl.GL.GL_COLOR_BUFFER_BIT;
+import static com.jogamp.opengl.GL.GL_DEPTH_BUFFER_BIT;
+import static com.jogamp.opengl.GL.GL_DEPTH_TEST;
+import static com.jogamp.opengl.GL.GL_FRONT_AND_BACK;
+import static com.jogamp.opengl.GL.GL_LINES;
+import static com.jogamp.opengl.GL2ES1.GL_LIGHT_MODEL_AMBIENT;
+import static com.jogamp.opengl.GL2ES1.GL_LIGHT_MODEL_TWO_SIDE;
+import static com.jogamp.opengl.fixedfunc.GLLightingFunc.GL_AMBIENT;
+import static com.jogamp.opengl.fixedfunc.GLLightingFunc.GL_AMBIENT_AND_DIFFUSE;
+import static com.jogamp.opengl.fixedfunc.GLLightingFunc.GL_DIFFUSE;
+import static com.jogamp.opengl.fixedfunc.GLLightingFunc.GL_LIGHT0;
+import static com.jogamp.opengl.fixedfunc.GLLightingFunc.GL_LIGHTING;
+import static com.jogamp.opengl.fixedfunc.GLLightingFunc.GL_POSITION;
+import static com.jogamp.opengl.fixedfunc.GLMatrixFunc.GL_MODELVIEW;
+import static com.jogamp.opengl.fixedfunc.GLMatrixFunc.GL_PROJECTION;
 
 import java.awt.Dimension;
 import java.awt.event.MouseAdapter;
@@ -41,11 +41,11 @@ import java.awt.event.MouseMotionAdapter;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLAutoDrawable;
-import javax.media.opengl.GLEventListener;
-import javax.media.opengl.awt.GLCanvas;
-import javax.media.opengl.glu.GLU;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLAutoDrawable;
+import com.jogamp.opengl.GLEventListener;
+import com.jogamp.opengl.awt.GLCanvas;
+import com.jogamp.opengl.glu.GLU;
 
 /**
  * Provides a template for all 3D graphs.

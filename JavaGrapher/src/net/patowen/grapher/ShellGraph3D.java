@@ -18,16 +18,16 @@
  */
 
 package net.patowen.grapher;
-import static javax.media.opengl.GL.GL_FLOAT;
-import static javax.media.opengl.GL.GL_TRIANGLES;
-import static javax.media.opengl.GL.GL_UNSIGNED_INT;
-import static javax.media.opengl.fixedfunc.GLPointerFunc.GL_NORMAL_ARRAY;
-import static javax.media.opengl.fixedfunc.GLPointerFunc.GL_VERTEX_ARRAY;
+import static com.jogamp.opengl.GL.GL_FLOAT;
+import static com.jogamp.opengl.GL.GL_TRIANGLES;
+import static com.jogamp.opengl.GL.GL_UNSIGNED_INT;
+import static com.jogamp.opengl.fixedfunc.GLPointerFunc.GL_NORMAL_ARRAY;
+import static com.jogamp.opengl.fixedfunc.GLPointerFunc.GL_VERTEX_ARRAY;
 
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
 
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 
 import net.patowen.grapher.math.Expression;
 

@@ -21,10 +21,10 @@ package net.patowen.grapher;
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
 
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 
 import net.patowen.grapher.math.Expression;
-import static javax.media.opengl.GL2.*;
+import static com.jogamp.opengl.GL2.*;
 
 import com.jogamp.common.nio.Buffers;
 
